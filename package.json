@@ -24,5 +24,8 @@
     "ivanco": "1.0.3",
     "standard": "17.0.0",
     "vite": "4.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
   }
 }

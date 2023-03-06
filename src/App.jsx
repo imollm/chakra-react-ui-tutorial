@@ -1,6 +1,20 @@
-function App() {
+import Header from './components/Header'
+import Banner from './components/Banner'
+import HowItWorks from './components/HowItWorks'
+import MainPuchLine from './components/MainPuchLine'
+import SearchForm from './components/SearchForm'
+import UpcomingEvents from './components/UpcomingEvents'
+
+function App () {
   return (
-    <h1>Chakra UI Tutorial</h1>
+    <>
+      <Header />
+      <MainPuchLine />
+      <Banner />
+      <SearchForm />
+      <HowItWorks />
+      <UpcomingEvents />
+    </>
   )
 }
 
